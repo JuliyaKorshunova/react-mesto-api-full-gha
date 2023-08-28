@@ -1,0 +1,32 @@
+.login__button {
+  width: 100%;
+  height: 50px;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  box-sizing: border-box;
+  background: #FFF;
+  border-radius: 2px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .login__button:hover {
+    background-color: rgba(225, 225, 225, 0.85);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login__button {
+    transform: translate(0px, -2px);
+    font-size: 16px;
+  } 
+}

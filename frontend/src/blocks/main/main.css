@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    /* липкий футер */
+    flex: 1;
+}

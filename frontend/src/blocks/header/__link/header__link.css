@@ -1,0 +1,18 @@
+.header__link {
+  margin-top: 6px;
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.21;
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .header__link {
+    margin-right: calc(30/320*100%);
+    margin-top: calc(6/320*100%);
+    font-size: 14px;
+    transform: translate(25px, -11px);
+  }
+}

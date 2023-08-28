@@ -1,0 +1,23 @@
+.profile__container {
+  display: inline-grid;
+  grid-template-areas:
+    "name name"
+    "job .";
+    column-gap: 18px;
+    row-gap: 16px;
+    padding-left: 30px;
+    align-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .profile__container {
+    padding-top: 26px;
+    padding-left: 30px;
+    display: inline-grid;
+    grid-template-areas:
+    "name neme"
+    "job .";
+    column-gap: 10px;
+    row-gap: 14px;
+  }
+}

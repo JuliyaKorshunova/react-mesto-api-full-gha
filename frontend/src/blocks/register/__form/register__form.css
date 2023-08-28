@@ -1,0 +1,7 @@
+.register__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 430px;
+  height: 100%;
+}

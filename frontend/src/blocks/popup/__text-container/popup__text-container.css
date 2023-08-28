@@ -1,0 +1,10 @@
+.popup__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+}
+
+.popup__text-container:last-of-type {
+  margin-bottom: 15px;
+}

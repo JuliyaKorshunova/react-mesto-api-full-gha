@@ -1,0 +1,26 @@
+.header__logo {
+  display: block;
+  object-fit: cover;
+  width: 142px;
+  height: 33px;
+  margin-bottom: 40px;
+  color: var(--main-color);
+  /* display: flex;
+  align-self: flex-start;
+  width: 142px;
+  margin-top: 45px;
+  aspect-ratio: 4 / 1;
+  padding-bottom: 41px; */
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 103.736px;
+    height: 24.396px;
+    /* width: calc(103.74/320*100%);
+    height: calc(24.4/320*100%); */
+    margin-left: calc(27/320*100%);
+    margin-bottom: 30.6px;
+    transform: translate(-22px, 4px);
+  }
+}

@@ -1,0 +1,15 @@
+.register__container {
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  position: relative;
+  align-items: flex-end;
+}
+  @media screen and (max-width: 600px) {
+    .register__containerr  {
+      width: 320px;
+      height: 568px; 
+    } 
+  }

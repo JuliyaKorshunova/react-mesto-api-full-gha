@@ -1,0 +1,18 @@
+.footer__text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #545454;
+  margin: 0;
+  transform: translate(0px, 8px);
+}
+
+@media screen and (max-width: 600px) {
+  .footer__text {
+    font-size: 14px;
+    line-height: 17px;
+    transform: translate(-23px, 2px);
+  }
+}

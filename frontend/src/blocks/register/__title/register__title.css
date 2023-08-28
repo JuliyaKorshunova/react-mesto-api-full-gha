@@ -1,0 +1,13 @@
+.register__title {
+  margin-top: 60px;
+  width: 358px;
+  flex-direction: column;
+  color: #FFF;
+  text-align: center;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}

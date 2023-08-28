@@ -1,0 +1,17 @@
+.register__input {
+  margin-top: 50px;
+  width: 100%;
+  margin: auto;
+  border-bottom: 2px solid #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  color: #CCC;
+  text-align: center;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 14px;
+}

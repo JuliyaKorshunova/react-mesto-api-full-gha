@@ -1,0 +1,25 @@
+.popup__container-register-login {
+  width: 430px;
+  padding: 34px 36px 37px 36px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  position: relative;
+  /* align-items: flex-end; */
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 600px) {
+  .popup__container  {
+    width: 282px; 
+  } 
+}
+
+@media screen and (max-height: 420px) {
+  .popup__container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

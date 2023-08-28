@@ -1,0 +1,6 @@
+.popup__submit_disable {
+  opacity: 0.2;
+  background-color: white;
+  color: #000000;
+  pointer-events: none;
+}

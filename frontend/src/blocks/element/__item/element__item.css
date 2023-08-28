@@ -1,0 +1,13 @@
+.element__item {
+  max-width: 282px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  align-items: flex-end;
+  justify-self: center;
+  position: relative;
+  z-index: 0;
+}

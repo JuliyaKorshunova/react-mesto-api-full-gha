@@ -1,0 +1,28 @@
+.popup__error {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 15px;
+  color: #FF0000;
+
+  width: 358px;
+  min-height: 30px;
+  display: block;
+  /*visibility: hidden;*/
+}
+
+.popup__error:last-of-type {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 560px) {
+  .popup__error {
+    width: 238px;
+  }
+}
+  
+  
+  
+  
+  

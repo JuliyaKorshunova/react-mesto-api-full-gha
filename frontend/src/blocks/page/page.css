@@ -1,0 +1,10 @@
+.page {
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000000;
+  box-sizing: border-box;
+}

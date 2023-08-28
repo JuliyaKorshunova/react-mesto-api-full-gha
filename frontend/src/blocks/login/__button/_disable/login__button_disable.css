@@ -1,0 +1,7 @@
+.login__button_disable {
+  color: #FFFFFF;
+  border: 1px solid var(--dark-color);
+  opacity: .5;
+  cursor: none;
+  pointer-events: none;
+}

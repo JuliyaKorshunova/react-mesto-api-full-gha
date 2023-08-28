@@ -1,0 +1,23 @@
+.popup__subtitle {
+  padding-top: 34px;
+  padding-left: 0;
+  padding-right: 64px;
+  padding-bottom: 48px;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 25px;
+    padding-left: 12px;
+    padding-right: 22px;
+  } 
+}

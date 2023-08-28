@@ -1,0 +1,45 @@
+.profile__avatar-overlay {
+  display: flex;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 30px;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.profile__avatar-overlay::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  background-image: url(../../../images/edit-button.svg);
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .profile__avatar-overlay {
+    width: calc(120px + (273 - 120)*((100vw - 320px)/(728 - 320)));
+    height: calc(120px + (273 - 120)*((100vw - 320px)/(728 - 320)));
+    margin-right: 0;
+    margin-bottom: 26px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .profile__avatar-overlay:hover::before {
+    opacity: 1;
+    transition: opacity .3s linear;
+    cursor: pointer;
+  }
+}

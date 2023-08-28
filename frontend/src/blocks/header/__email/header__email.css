@@ -1,0 +1,11 @@
+.header__email {
+  margin: 0 24px 0 0;
+  color: var(--main-color);
+}
+
+@media screen and (max-width:800px) {
+  .header__email {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.profile {
+  padding-top: 36px;
+  width: 100%;
+  min-width: 282px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+
+}
+
+@media screen and (max-width: 900px) {
+  .profile {
+    flex-direction: column;
+    width: calc(282px + (581 - 282) * ((100vw - 320px) / (846 - 320)));
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .profile {
+    padding-top: 38px;
+  } 
+}
