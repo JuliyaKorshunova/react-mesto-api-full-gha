@@ -5,12 +5,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/JuliyaKorshunova/react-mesto-api-full-gha.git
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 84.201.156.113
 
-Frontend https://...
+Frontend https://mesto-66.juliya.students.nomoredomainsicu.ru
 
-Backend https://...
+Backend https://bmesto-66.juliya.students.nomoredomainsicu.ru
