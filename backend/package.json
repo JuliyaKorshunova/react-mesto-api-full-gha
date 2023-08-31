@@ -2,7 +2,7 @@
   "name": "express-mesto-gha",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "lint": "npx eslint .",
@@ -21,7 +21,6 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "-": "^0.0.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "celebrate": "^15.0.1",
