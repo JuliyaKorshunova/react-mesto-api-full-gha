@@ -113,10 +113,6 @@ class Api {
 
 //Создаем экземпляр Api
 const api = new Api({
-  baseUrl: 'http://localhost:3000',
-  // headers: {
-  //   authorization: '6b284fd9-2112-4db5-ba62-219123f88ff3',
-  //   'Content-Type': 'application/json'
-  // }
+  baseUrl: 'https://api.juliya.nomoredomainsicu.ru',
 });
 export default api
